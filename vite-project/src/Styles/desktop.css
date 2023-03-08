@@ -1,0 +1,42 @@
+
+
+
+@media screen and (max-width:855px) {
+    header .before {
+        display: none;
+    }
+
+    .nav .register {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:605px) {
+    .max {
+        display: none;
+    }
+    .min {
+        display: block;
+        position: absolute;
+        right: 0%;
+        top: 2.5%;
+    }
+  
+}
+@media screen and (max-width:520px) {
+    .nav-mobile ul{
+        line-height: 25px;
+    }
+}
+@media screen and (max-width:460px) {
+    .nav-mobile ul{
+        line-height: 20px;
+    }
+}
+@media screen and (max-width:385px) {
+    .nav-mobile ul{
+        line-height: 15px;
+    }
+}
+

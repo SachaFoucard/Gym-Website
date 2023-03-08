@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'MuseoModerno', cursive;
+    background-color: rgb(241, 241, 241);
+}
+.grid {
+    display: grid;
+}
+
+.clm3 {
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    background-color: #4A5F65;
+}
+.nav img {
+    max-width: 100%;
+    min-width: 122px;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav ul li{
+    margin-right: 15px;
+}
+.nav svg {
+    color: #ffff;
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+.white {
+    color: #ffff;
+}
+
+.ask {
+    background-color: #FE6108;
+    text-align: center;
+    align-self: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+.close{
+   position: absolute;
+   left: 10%;
+   top: 2.3%;
+   font-size: 20px;
+}
+.close svg{
+    font-size: 30px;
+ }
+
+.blk {
+    color: #000000;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.nav p{
+    text-align: center;
+}
+.nav .register {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.orange {
+    color: #FE6108;
+}
+
+.min{
+    display: none;
+}
+
+.nav-mobile ul{
+grid-template-columns: auto;
+padding-top: 50px;
+gap: 10px;
+line-height: 30px;
+}
+.nav-mobile ul li a:hover{
+    color: #FE6108;
+}
+.min svg{
+    position: absolute;
+    right: 30%;
+}
+@media screen and (max-width:605px){
+    .text-grey p.first{
+        font-size: 14px;
+    }
+    .text-grey p.second{
+        font-size: 20px;
+    }
+    .text-grey{
+        height: 110px;
+        margin-top: -10px;
+        width: 100%;
+    }
+  
+}
+
+@media screen and (max-width:780px){
+    .image-transformation {
+        grid-template-columns: 1fr;
+    }
+}
+
+

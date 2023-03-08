@@ -1,0 +1,83 @@
+.footer .inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 900px;
+    margin: auto;
+    gap: 20px;
+}
+
+.footer h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.txt-form textarea{
+   margin-top: 10px;
+}
+.footer input {
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    color: aliceblue;
+    width: 100%;
+    margin-top: auto;
+    max-width: 100%;
+}
+.footer button{
+    background-color: #FE6108;
+    width: 80px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 10px;
+    color: aliceblue;
+    padding: 5px;
+ 
+}
+.footer h1{
+    padding-block: 30px;
+}
+.footer .txt-form {
+display: grid;
+grid-template-columns: auto;
+}
+.footer textarea{
+    width: 600Px;
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: aliceblue;
+}
+.footer button {
+    max-width: 200px;
+    margin: auto;
+}
+
+.footer input::placeholder {
+    color: aliceblue;
+}
+.footer textarea::placeholder {
+    color: aliceblue;
+}
+
+@media screen and (max-width:938px) {
+    .footer .inputs {
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .footer input {
+        margin-top: 10px;
+        margin-inline: 20px;
+        border-radius: 3px;
+    }
+    .footer textarea{
+        width: 100%;
+        margin-inline: 30px;
+        margin: auto;
+    }
+}
+.lien {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

@@ -1,0 +1,146 @@
+.first-service {
+    text-transform: uppercase;
+    text-align: center;
+
+    margin: auto;
+    font-size: 20px;
+}
+
+.service-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-inline: 40px;
+}
+
+.extra {
+    padding-inline: 40px;
+}
+
+.service-main img {
+    width: 300px;
+}
+
+.text-service .text-service p {
+    max-width: 300px;
+}
+
+@media screen and (max-width:720px) {
+    .service-main {
+        grid-template-columns: auto;
+    }
+
+    .text-service {
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .service-main img {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+.extra {
+  text-align: center;
+}
+
+.service h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+margin: auto;}
+
+
+
+.extra img {
+    max-width: 500px;
+  
+}
+
+@media screen and (max-width:544px) {
+    .extra img {
+       position: initial;
+       width: 100%;
+       margin: auto;
+    }
+
+    .extra {
+        height: 500px;
+    }
+
+}
+.practical h1{
+    font-size: 43px;
+   padding-bottom: 20px;
+   text-align: center;
+}
+.practical{
+    padding-block: 40px;
+}
+.practical .information-block{
+text-align: center;
+}
+.practical h1{
+padding-inline: 40px;
+}
+.practical .information-block{
+    line-height: 5px;
+}
+.practical .specialLineHeight{
+    text-align: center;
+}
+.practical h2{
+    text-transform: uppercase;
+}
+header h2{
+    font-size: 70px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    font-weight: 900;
+}
+@media screen and (max-width:825px) {
+.service h2{
+    font-size: 40px;
+    top: 40%;
+}
+.practical svg{
+    font-size: 20px;
+}
+.service h1{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 10px;
+}
+}
+@media screen and (max-width:689px) {
+   .service h2{
+    font-size: 30px;
+    top: 40%;
+} 
+}
+
+@media screen and (max-width :500px){
+    .service h1{
+        font-size: 30px;
+        text-decoration: underline;
+    }
+}
+@media screen and (max-width :420px){
+    .service h2{
+        top: 30%;
+        font-size: 30px;
+    
+    }
+}
+.practical svg{
+    font-size: 30px;
+    margin-left: 15px;
+}
+.practical p{
+    margin-bottom: 20px;
+    line-height: 20px;
+}
